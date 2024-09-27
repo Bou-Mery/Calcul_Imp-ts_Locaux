@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/Titre"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="@string/nom"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nomInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="@string/adresse"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/adresseInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="@string/surface"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/surfaceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/nbrPiece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="@string/nbrPiece"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nbrPieceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:weightSum="1"
+
+        >
+
+        <CheckBox
+            android:id="@+id/piscine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="0.5"
+            android:text="@string/piscine"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/calculer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_weight="0.5"
+            android:text="@string/calculer" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/impotBase"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="@string/impotBase"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/impotSup"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/impotSup"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/total"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        />
+
+
+</LinearLayout>

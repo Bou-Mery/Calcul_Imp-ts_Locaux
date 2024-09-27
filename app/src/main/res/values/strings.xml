@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MobileTp1Exo2</string>
+    <string name="Titre">Calcul des impots locaux</string>
+    <string name="nom">Nom</string>
+    <string name="adresse">Adresse</string>
+    <string name="surface">Surface</string>
+    <string name="nbrPiece">Nombre de Pièces</string>
+    <string name="piscine">Piscine</string>
+    <string name="calculer">Calculer</string>
+    <string name="impotBase" />
+    <string name="impotSup" />
+    <string name="total" />
+</resources>
