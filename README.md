@@ -26,7 +26,7 @@ Cette application mobile permet de calculer le prix des impôts locaux de voitur
 
 Voici une courte démonstration de l'application :
 
-[Cliquez ici pour regarder la vidéo](https://drive.google.com/file/d/1hVQN4olV2s02Ga6GEwDIjrwARZRCimo-/view?usp=drive_link)
+https://github.com/user-attachments/assets/cbbc7551-c36d-4e14-b1ce-f7633bcecae6
 
 
 ### Auteur
